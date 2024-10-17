@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_41b870bfcc66a13ab730a0429bbbac18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_41b870bfcc66a13ab730a0429bbbac18" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_41b870bfcc66a13ab730a0429bbbac18 = L.map(
+                "map_41b870bfcc66a13ab730a0429bbbac18",
+                {
+                    center: [0.0, 20.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_34887708829d49bac3b1e600934ccc6c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_34887708829d49bac3b1e600934ccc6c.addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+            tile_layer_34887708829d49bac3b1e600934ccc6c.addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+            var marker_f4524cdec6e8db560d63c0a8b74d100f = L.marker(
+                [36.7525, 3.042],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_34d789801031b3aab480380bf7e5c24a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6e2b011ecb63b2b2be21a1100f125e = $(`<div id="html_3d6e2b011ecb63b2b2be21a1100f125e" style="width: 100.0%; height: 100.0%;">Algiers (DZ)<br>Température: 20.9°C</div>`)[0];
+                popup_34d789801031b3aab480380bf7e5c24a.setContent(html_3d6e2b011ecb63b2b2be21a1100f125e);
+            
+        
+
+        marker_f4524cdec6e8db560d63c0a8b74d100f.bindPopup(popup_34d789801031b3aab480380bf7e5c24a)
+        ;
+
+        
+    
+    
+            marker_f4524cdec6e8db560d63c0a8b74d100f.bindTooltip(
+                `<div>
+                     Algiers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dbac9fbff6edba218b25d87198be26f = L.marker(
+                [-8.8368, 13.2343],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_22fb6772fff43714db80c1eeed2d43be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9525ce7ad5b015ec29d3d4493b0e75f8 = $(`<div id="html_9525ce7ad5b015ec29d3d4493b0e75f8" style="width: 100.0%; height: 100.0%;">Luanda (AO)<br>Température: 26.0°C</div>`)[0];
+                popup_22fb6772fff43714db80c1eeed2d43be.setContent(html_9525ce7ad5b015ec29d3d4493b0e75f8);
+            
+        
+
+        marker_2dbac9fbff6edba218b25d87198be26f.bindPopup(popup_22fb6772fff43714db80c1eeed2d43be)
+        ;
+
+        
+    
+    
+            marker_2dbac9fbff6edba218b25d87198be26f.bindTooltip(
+                `<div>
+                     Luanda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e402158a173c61fee49ab85367adbdbc = L.marker(
+                [6.4965, 2.6036],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_bcf9eb22e7f78e38284a522bbadca2b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2371bb445329f946d4824696b9e0a253 = $(`<div id="html_2371bb445329f946d4824696b9e0a253" style="width: 100.0%; height: 100.0%;">Porto-Novo (BJ)<br>Température: 25.9°C</div>`)[0];
+                popup_bcf9eb22e7f78e38284a522bbadca2b9.setContent(html_2371bb445329f946d4824696b9e0a253);
+            
+        
+
+        marker_e402158a173c61fee49ab85367adbdbc.bindPopup(popup_bcf9eb22e7f78e38284a522bbadca2b9)
+        ;
+
+        
+    
+    
+            marker_e402158a173c61fee49ab85367adbdbc.bindTooltip(
+                `<div>
+                     Porto-Novo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3258601f94be011bb039551e3edfa09 = L.marker(
+                [-24.6545, 25.9086],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_6ee0896cd5e42775f5d8acdc9eed15bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d3fe95d45522c796df3d5fed2a2b4f5 = $(`<div id="html_7d3fe95d45522c796df3d5fed2a2b4f5" style="width: 100.0%; height: 100.0%;">Gaborone (BW)<br>Température: 24.52°C</div>`)[0];
+                popup_6ee0896cd5e42775f5d8acdc9eed15bf.setContent(html_7d3fe95d45522c796df3d5fed2a2b4f5);
+            
+        
+
+        marker_e3258601f94be011bb039551e3edfa09.bindPopup(popup_6ee0896cd5e42775f5d8acdc9eed15bf)
+        ;
+
+        
+    
+    
+            marker_e3258601f94be011bb039551e3edfa09.bindTooltip(
+                `<div>
+                     Gaborone
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0ac48f3785d310052102c86fb7ab3a2 = L.marker(
+                [12.3642, -1.5383],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_8592632f096d939aadf4e74e130fe0bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9a311dfa46fe1d4d2ffce08851bbce2 = $(`<div id="html_d9a311dfa46fe1d4d2ffce08851bbce2" style="width: 100.0%; height: 100.0%;">Ouagadougou (BF)<br>Température: 31.07°C</div>`)[0];
+                popup_8592632f096d939aadf4e74e130fe0bb.setContent(html_d9a311dfa46fe1d4d2ffce08851bbce2);
+            
+        
+
+        marker_b0ac48f3785d310052102c86fb7ab3a2.bindPopup(popup_8592632f096d939aadf4e74e130fe0bb)
+        ;
+
+        
+    
+    
+            marker_b0ac48f3785d310052102c86fb7ab3a2.bindTooltip(
+                `<div>
+                     Ouagadougou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08f2d7b302251aae2640b82cc48a675f = L.marker(
+                [-3.3822, 29.3644],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_1d8cde97abaa0eefd5c9795f145e6274 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eb1730528870bd15960786f65867d73 = $(`<div id="html_1eb1730528870bd15960786f65867d73" style="width: 100.0%; height: 100.0%;">Bujumbura (BI)<br>Température: 22.85°C</div>`)[0];
+                popup_1d8cde97abaa0eefd5c9795f145e6274.setContent(html_1eb1730528870bd15960786f65867d73);
+            
+        
+
+        marker_08f2d7b302251aae2640b82cc48a675f.bindPopup(popup_1d8cde97abaa0eefd5c9795f145e6274)
+        ;
+
+        
+    
+    
+            marker_08f2d7b302251aae2640b82cc48a675f.bindTooltip(
+                `<div>
+                     Bujumbura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c41139f5f70b033682c84c671af4a4f1 = L.marker(
+                [3.8667, 11.5167],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_cf5e9b9daeae01449f1ffcc6b8e6026e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1904f0ffb8a28c07e8fd20316c545ab = $(`<div id="html_a1904f0ffb8a28c07e8fd20316c545ab" style="width: 100.0%; height: 100.0%;">Yaounde (CM)<br>Température: 20.61°C</div>`)[0];
+                popup_cf5e9b9daeae01449f1ffcc6b8e6026e.setContent(html_a1904f0ffb8a28c07e8fd20316c545ab);
+            
+        
+
+        marker_c41139f5f70b033682c84c671af4a4f1.bindPopup(popup_cf5e9b9daeae01449f1ffcc6b8e6026e)
+        ;
+
+        
+    
+    
+            marker_c41139f5f70b033682c84c671af4a4f1.bindTooltip(
+                `<div>
+                     Yaounde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_741c8b79b51c5070c9537255bd819164 = L.marker(
+                [14.9215, -23.5087],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_57c396ac3727d565869fa89cdfe39d8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1afc62927167ad4f6b44f731b07af7ea = $(`<div id="html_1afc62927167ad4f6b44f731b07af7ea" style="width: 100.0%; height: 100.0%;">Praia (CV)<br>Température: 28.3°C</div>`)[0];
+                popup_57c396ac3727d565869fa89cdfe39d8d.setContent(html_1afc62927167ad4f6b44f731b07af7ea);
+            
+        
+
+        marker_741c8b79b51c5070c9537255bd819164.bindPopup(popup_57c396ac3727d565869fa89cdfe39d8d)
+        ;
+
+        
+    
+    
+            marker_741c8b79b51c5070c9537255bd819164.bindTooltip(
+                `<div>
+                     Praia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4b7fd97b608791850b98083030b0f43 = L.marker(
+                [-11.7022, 43.2551],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_50ae038e8c553baa69702667b5c46392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8076faaeee09a24623864002fe0843fa = $(`<div id="html_8076faaeee09a24623864002fe0843fa" style="width: 100.0%; height: 100.0%;">Moroni (KM)<br>Température: 24.96°C</div>`)[0];
+                popup_50ae038e8c553baa69702667b5c46392.setContent(html_8076faaeee09a24623864002fe0843fa);
+            
+        
+
+        marker_d4b7fd97b608791850b98083030b0f43.bindPopup(popup_50ae038e8c553baa69702667b5c46392)
+        ;
+
+        
+    
+    
+            marker_d4b7fd97b608791850b98083030b0f43.bindTooltip(
+                `<div>
+                     Moroni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f0ffef94e3305d442022435be168f27 = L.marker(
+                [6.8206, -5.2767],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_5ec88bc28d8ea5ef4ab851d9ee81a338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e4aeb0719a12c8a552efb9da7eb8100 = $(`<div id="html_1e4aeb0719a12c8a552efb9da7eb8100" style="width: 100.0%; height: 100.0%;">Yamoussoukro (CI)<br>Température: 23.81°C</div>`)[0];
+                popup_5ec88bc28d8ea5ef4ab851d9ee81a338.setContent(html_1e4aeb0719a12c8a552efb9da7eb8100);
+            
+        
+
+        marker_2f0ffef94e3305d442022435be168f27.bindPopup(popup_5ec88bc28d8ea5ef4ab851d9ee81a338)
+        ;
+
+        
+    
+    
+            marker_2f0ffef94e3305d442022435be168f27.bindTooltip(
+                `<div>
+                     Yamoussoukro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_402008dc38fb0b045c97bcaf9d936353 = L.marker(
+                [11.5877, 43.1447],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_00a5ef6bd1ccd2a209f270abc5370ce5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e74bd0c5bdcc8aa3bce82c69387d00 = $(`<div id="html_17e74bd0c5bdcc8aa3bce82c69387d00" style="width: 100.0%; height: 100.0%;">Djibouti (DJ)<br>Température: 32.6°C</div>`)[0];
+                popup_00a5ef6bd1ccd2a209f270abc5370ce5.setContent(html_17e74bd0c5bdcc8aa3bce82c69387d00);
+            
+        
+
+        marker_402008dc38fb0b045c97bcaf9d936353.bindPopup(popup_00a5ef6bd1ccd2a209f270abc5370ce5)
+        ;
+
+        
+    
+    
+            marker_402008dc38fb0b045c97bcaf9d936353.bindTooltip(
+                `<div>
+                     Djibouti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f80b6365c7abfa5423743dea13c6c9bf = L.marker(
+                [30.0626, 31.2497],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_c450affbd46b71f392a5a0b27f47ec91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b05c0a28c4a9639e371c05020b93251b = $(`<div id="html_b05c0a28c4a9639e371c05020b93251b" style="width: 100.0%; height: 100.0%;">Cairo (EG)<br>Température: 26.42°C</div>`)[0];
+                popup_c450affbd46b71f392a5a0b27f47ec91.setContent(html_b05c0a28c4a9639e371c05020b93251b);
+            
+        
+
+        marker_f80b6365c7abfa5423743dea13c6c9bf.bindPopup(popup_c450affbd46b71f392a5a0b27f47ec91)
+        ;
+
+        
+    
+    
+            marker_f80b6365c7abfa5423743dea13c6c9bf.bindTooltip(
+                `<div>
+                     Cairo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc99f06654ac7b8b55515043f532921b = L.marker(
+                [15.3333, 38.9333],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_4b980deabdf4331bbc1b20432eb7c444 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8780bf354a1a73f2b7570b3e4762768 = $(`<div id="html_a8780bf354a1a73f2b7570b3e4762768" style="width: 100.0%; height: 100.0%;">Asmara (ER)<br>Température: 17.53°C</div>`)[0];
+                popup_4b980deabdf4331bbc1b20432eb7c444.setContent(html_a8780bf354a1a73f2b7570b3e4762768);
+            
+        
+
+        marker_dc99f06654ac7b8b55515043f532921b.bindPopup(popup_4b980deabdf4331bbc1b20432eb7c444)
+        ;
+
+        
+    
+    
+            marker_dc99f06654ac7b8b55515043f532921b.bindTooltip(
+                `<div>
+                     Asmara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd5bee57fdfe13c40292666581d3a592 = L.marker(
+                [-26.3167, 31.1333],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_30ef228689751eb53fdba13964127a0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a806cc6b881cf45c7f9de165586b1048 = $(`<div id="html_a806cc6b881cf45c7f9de165586b1048" style="width: 100.0%; height: 100.0%;">Mbabane (SZ)<br>Température: 14.63°C</div>`)[0];
+                popup_30ef228689751eb53fdba13964127a0e.setContent(html_a806cc6b881cf45c7f9de165586b1048);
+            
+        
+
+        marker_bd5bee57fdfe13c40292666581d3a592.bindPopup(popup_30ef228689751eb53fdba13964127a0e)
+        ;
+
+        
+    
+    
+            marker_bd5bee57fdfe13c40292666581d3a592.bindTooltip(
+                `<div>
+                     Mbabane
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_446cc2fb7c45b9bcd901a6d1e4d79ce7 = L.marker(
+                [9.025, 38.7469],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_57e4eb489e475272fe5d5b019bd6dbd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ee9b808b1183017ce947cbf8bfccced = $(`<div id="html_8ee9b808b1183017ce947cbf8bfccced" style="width: 100.0%; height: 100.0%;">Addis Ababa (ET)<br>Température: 13.33°C</div>`)[0];
+                popup_57e4eb489e475272fe5d5b019bd6dbd9.setContent(html_8ee9b808b1183017ce947cbf8bfccced);
+            
+        
+
+        marker_446cc2fb7c45b9bcd901a6d1e4d79ce7.bindPopup(popup_57e4eb489e475272fe5d5b019bd6dbd9)
+        ;
+
+        
+    
+    
+            marker_446cc2fb7c45b9bcd901a6d1e4d79ce7.bindTooltip(
+                `<div>
+                     Addis Ababa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b2326f61556da415680550d2b651d9e = L.marker(
+                [0.3925, 9.4537],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_9145dc654e9090bc7e4956dd66a6fac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bd847b6f1dc0b1a0042e83419814562 = $(`<div id="html_8bd847b6f1dc0b1a0042e83419814562" style="width: 100.0%; height: 100.0%;">Libreville (GA)<br>Température: 25.88°C</div>`)[0];
+                popup_9145dc654e9090bc7e4956dd66a6fac2.setContent(html_8bd847b6f1dc0b1a0042e83419814562);
+            
+        
+
+        marker_5b2326f61556da415680550d2b651d9e.bindPopup(popup_9145dc654e9090bc7e4956dd66a6fac2)
+        ;
+
+        
+    
+    
+            marker_5b2326f61556da415680550d2b651d9e.bindTooltip(
+                `<div>
+                     Libreville
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f34a8d817f2d3ec72be0b4a01e085378 = L.marker(
+                [13.4527, -16.578],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_50b44616b3df82be19d4a381b2b6a005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0f6f55659fa24485d16cc96e75a2360 = $(`<div id="html_b0f6f55659fa24485d16cc96e75a2360" style="width: 100.0%; height: 100.0%;">Banjul (GM)<br>Température: 30.15°C</div>`)[0];
+                popup_50b44616b3df82be19d4a381b2b6a005.setContent(html_b0f6f55659fa24485d16cc96e75a2360);
+            
+        
+
+        marker_f34a8d817f2d3ec72be0b4a01e085378.bindPopup(popup_50b44616b3df82be19d4a381b2b6a005)
+        ;
+
+        
+    
+    
+            marker_f34a8d817f2d3ec72be0b4a01e085378.bindTooltip(
+                `<div>
+                     Banjul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48ea1b3a68bca13afbed47094eb9c351 = L.marker(
+                [5.556, -0.1969],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_1431dd9574d59c43221df05e9e675a2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17ac39b84a1c5ce9b3838ca11dfeb5bb = $(`<div id="html_17ac39b84a1c5ce9b3838ca11dfeb5bb" style="width: 100.0%; height: 100.0%;">Accra (GH)<br>Température: 26.23°C</div>`)[0];
+                popup_1431dd9574d59c43221df05e9e675a2f.setContent(html_17ac39b84a1c5ce9b3838ca11dfeb5bb);
+            
+        
+
+        marker_48ea1b3a68bca13afbed47094eb9c351.bindPopup(popup_1431dd9574d59c43221df05e9e675a2f)
+        ;
+
+        
+    
+    
+            marker_48ea1b3a68bca13afbed47094eb9c351.bindTooltip(
+                `<div>
+                     Accra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6f929c2c90041dbf654e395fae149c4 = L.marker(
+                [9.538, -13.6773],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_643a6e296edd912344933b5940759599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ad8ec124bb7e13bbd7c4a5b7b2efe4e = $(`<div id="html_3ad8ec124bb7e13bbd7c4a5b7b2efe4e" style="width: 100.0%; height: 100.0%;">Conakry (GN)<br>Température: 28.04°C</div>`)[0];
+                popup_643a6e296edd912344933b5940759599.setContent(html_3ad8ec124bb7e13bbd7c4a5b7b2efe4e);
+            
+        
+
+        marker_b6f929c2c90041dbf654e395fae149c4.bindPopup(popup_643a6e296edd912344933b5940759599)
+        ;
+
+        
+    
+    
+            marker_b6f929c2c90041dbf654e395fae149c4.bindTooltip(
+                `<div>
+                     Conakry
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97046fce39f44010272fb9c7d0b0f1f2 = L.marker(
+                [11.8636, -15.5977],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_7f861b8b3a535ebf64f973deb7325c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a96977424c8149e6bf72d87e60531550 = $(`<div id="html_a96977424c8149e6bf72d87e60531550" style="width: 100.0%; height: 100.0%;">Bissau (GW)<br>Température: 24.06°C</div>`)[0];
+                popup_7f861b8b3a535ebf64f973deb7325c09.setContent(html_a96977424c8149e6bf72d87e60531550);
+            
+        
+
+        marker_97046fce39f44010272fb9c7d0b0f1f2.bindPopup(popup_7f861b8b3a535ebf64f973deb7325c09)
+        ;
+
+        
+    
+    
+            marker_97046fce39f44010272fb9c7d0b0f1f2.bindTooltip(
+                `<div>
+                     Bissau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6195574e61a0c5eacebb5b11bc44cc1a = L.marker(
+                [-1.2833, 36.8167],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_ac56782789f6b0278ecb65ccef866492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bbc0c0e13a55a2e9364606a76331634 = $(`<div id="html_3bbc0c0e13a55a2e9364606a76331634" style="width: 100.0%; height: 100.0%;">Nairobi (KE)<br>Température: 21.62°C</div>`)[0];
+                popup_ac56782789f6b0278ecb65ccef866492.setContent(html_3bbc0c0e13a55a2e9364606a76331634);
+            
+        
+
+        marker_6195574e61a0c5eacebb5b11bc44cc1a.bindPopup(popup_ac56782789f6b0278ecb65ccef866492)
+        ;
+
+        
+    
+    
+            marker_6195574e61a0c5eacebb5b11bc44cc1a.bindTooltip(
+                `<div>
+                     Nairobi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bc0a73e77327648d4d360a65e8d4cf3 = L.marker(
+                [-29.3167, 27.4833],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_baa52f0b10ab31beb114fbdbe84fd255 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fc3615e9d4f9ef03c9b5eb31952c68c = $(`<div id="html_6fc3615e9d4f9ef03c9b5eb31952c68c" style="width: 100.0%; height: 100.0%;">Maseru (LS)<br>Température: 20.27°C</div>`)[0];
+                popup_baa52f0b10ab31beb114fbdbe84fd255.setContent(html_6fc3615e9d4f9ef03c9b5eb31952c68c);
+            
+        
+
+        marker_9bc0a73e77327648d4d360a65e8d4cf3.bindPopup(popup_baa52f0b10ab31beb114fbdbe84fd255)
+        ;
+
+        
+    
+    
+            marker_9bc0a73e77327648d4d360a65e8d4cf3.bindTooltip(
+                `<div>
+                     Maseru
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce9d23ad7ac151daba98c29de87e63b9 = L.marker(
+                [6.3005, -10.7969],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_313692c8ba09e61326a5cb5475841c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b4debd89456d31ccfad830d9e637078 = $(`<div id="html_5b4debd89456d31ccfad830d9e637078" style="width: 100.0%; height: 100.0%;">Monrovia (LR)<br>Température: 26.87°C</div>`)[0];
+                popup_313692c8ba09e61326a5cb5475841c94.setContent(html_5b4debd89456d31ccfad830d9e637078);
+            
+        
+
+        marker_ce9d23ad7ac151daba98c29de87e63b9.bindPopup(popup_313692c8ba09e61326a5cb5475841c94)
+        ;
+
+        
+    
+    
+            marker_ce9d23ad7ac151daba98c29de87e63b9.bindTooltip(
+                `<div>
+                     Monrovia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eee062d622f2720ffbc69c23feca27cd = L.marker(
+                [32.8752, 13.1875],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_95baf6a90d8c623fec17fffafe709e5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fe624a42a35b5a089ba33e57e7c7d6b = $(`<div id="html_9fe624a42a35b5a089ba33e57e7c7d6b" style="width: 100.0%; height: 100.0%;">Tripoli (LY)<br>Température: 28.01°C</div>`)[0];
+                popup_95baf6a90d8c623fec17fffafe709e5a.setContent(html_9fe624a42a35b5a089ba33e57e7c7d6b);
+            
+        
+
+        marker_eee062d622f2720ffbc69c23feca27cd.bindPopup(popup_95baf6a90d8c623fec17fffafe709e5a)
+        ;
+
+        
+    
+    
+            marker_eee062d622f2720ffbc69c23feca27cd.bindTooltip(
+                `<div>
+                     Tripoli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5c9c5fd346540ce603947301a39a02a = L.marker(
+                [-18.9137, 47.5361],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_04c044577bab6af64972f8779c5a2316 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c278da110d7af9c3d60b9468138c633 = $(`<div id="html_9c278da110d7af9c3d60b9468138c633" style="width: 100.0%; height: 100.0%;">Antananarivo (MG)<br>Température: 16.98°C</div>`)[0];
+                popup_04c044577bab6af64972f8779c5a2316.setContent(html_9c278da110d7af9c3d60b9468138c633);
+            
+        
+
+        marker_d5c9c5fd346540ce603947301a39a02a.bindPopup(popup_04c044577bab6af64972f8779c5a2316)
+        ;
+
+        
+    
+    
+            marker_d5c9c5fd346540ce603947301a39a02a.bindTooltip(
+                `<div>
+                     Antananarivo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36dce833a1f2fbcb207490ca0632b299 = L.marker(
+                [-13.9669, 33.7873],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_e98c07d629fd76de3918be36a38a997b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b7e19b8fa86175e110153b4e76fb9f3 = $(`<div id="html_0b7e19b8fa86175e110153b4e76fb9f3" style="width: 100.0%; height: 100.0%;">Lilongwe (MW)<br>Température: 20.14°C</div>`)[0];
+                popup_e98c07d629fd76de3918be36a38a997b.setContent(html_0b7e19b8fa86175e110153b4e76fb9f3);
+            
+        
+
+        marker_36dce833a1f2fbcb207490ca0632b299.bindPopup(popup_e98c07d629fd76de3918be36a38a997b)
+        ;
+
+        
+    
+    
+            marker_36dce833a1f2fbcb207490ca0632b299.bindTooltip(
+                `<div>
+                     Lilongwe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cf9277c9627af4ef151cede28a944e7 = L.marker(
+                [12.65, -8.0],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_ee370ec5d7bcaff9508817a0048b8c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_651a33daced2ad19b34bd432575747d6 = $(`<div id="html_651a33daced2ad19b34bd432575747d6" style="width: 100.0%; height: 100.0%;">Bamako (ML)<br>Température: 26.23°C</div>`)[0];
+                popup_ee370ec5d7bcaff9508817a0048b8c11.setContent(html_651a33daced2ad19b34bd432575747d6);
+            
+        
+
+        marker_8cf9277c9627af4ef151cede28a944e7.bindPopup(popup_ee370ec5d7bcaff9508817a0048b8c11)
+        ;
+
+        
+    
+    
+            marker_8cf9277c9627af4ef151cede28a944e7.bindTooltip(
+                `<div>
+                     Bamako
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4acb3ddb2f3b1cceb8567bcdcae8723a = L.marker(
+                [34.0132, -6.8326],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_a4a36bd519cdc605bc91b51e105bbdbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f252a31830087a1e41e7c5e7f40bf476 = $(`<div id="html_f252a31830087a1e41e7c5e7f40bf476" style="width: 100.0%; height: 100.0%;">Rabat (MA)<br>Température: 20.23°C</div>`)[0];
+                popup_a4a36bd519cdc605bc91b51e105bbdbe.setContent(html_f252a31830087a1e41e7c5e7f40bf476);
+            
+        
+
+        marker_4acb3ddb2f3b1cceb8567bcdcae8723a.bindPopup(popup_a4a36bd519cdc605bc91b51e105bbdbe)
+        ;
+
+        
+    
+    
+            marker_4acb3ddb2f3b1cceb8567bcdcae8723a.bindTooltip(
+                `<div>
+                     Rabat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cb2d4f485cfcd069a69dded6ec33df6 = L.marker(
+                [-20.1619, 57.4989],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_4583946f3be879fd83e465b9dfe92df4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3544cc8e3e14e511b9d3c0ea5291e784 = $(`<div id="html_3544cc8e3e14e511b9d3c0ea5291e784" style="width: 100.0%; height: 100.0%;">Port Louis (MU)<br>Température: 21.9°C</div>`)[0];
+                popup_4583946f3be879fd83e465b9dfe92df4.setContent(html_3544cc8e3e14e511b9d3c0ea5291e784);
+            
+        
+
+        marker_5cb2d4f485cfcd069a69dded6ec33df6.bindPopup(popup_4583946f3be879fd83e465b9dfe92df4)
+        ;
+
+        
+    
+    
+            marker_5cb2d4f485cfcd069a69dded6ec33df6.bindTooltip(
+                `<div>
+                     Port Louis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d34f29fdf2b0be879a4ca7633fbb415 = L.marker(
+                [18.0858, -15.9785],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_0574bbfc8d2378cedaa97526d366689b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a0f4f6c1b155d0e70eb4f547a623bea = $(`<div id="html_8a0f4f6c1b155d0e70eb4f547a623bea" style="width: 100.0%; height: 100.0%;">Nouakchott (MR)<br>Température: 30.96°C</div>`)[0];
+                popup_0574bbfc8d2378cedaa97526d366689b.setContent(html_8a0f4f6c1b155d0e70eb4f547a623bea);
+            
+        
+
+        marker_2d34f29fdf2b0be879a4ca7633fbb415.bindPopup(popup_0574bbfc8d2378cedaa97526d366689b)
+        ;
+
+        
+    
+    
+            marker_2d34f29fdf2b0be879a4ca7633fbb415.bindTooltip(
+                `<div>
+                     Nouakchott
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69dc30d20cd29798066040b681da9ba5 = L.marker(
+                [-25.9653, 32.5892],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_28b48a901508433e80cc440250d54976 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d690925b6059f46042bae2c18ce6c28d = $(`<div id="html_d690925b6059f46042bae2c18ce6c28d" style="width: 100.0%; height: 100.0%;">Maputo (MZ)<br>Température: 21.24°C</div>`)[0];
+                popup_28b48a901508433e80cc440250d54976.setContent(html_d690925b6059f46042bae2c18ce6c28d);
+            
+        
+
+        marker_69dc30d20cd29798066040b681da9ba5.bindPopup(popup_28b48a901508433e80cc440250d54976)
+        ;
+
+        
+    
+    
+            marker_69dc30d20cd29798066040b681da9ba5.bindTooltip(
+                `<div>
+                     Maputo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bfa3b36948d80b9f9aa0997b0261102 = L.marker(
+                [-22.5594, 17.0832],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_911116112cc598915218f6f78132beb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b8368cdbfb3ec281c6c621e1e01329 = $(`<div id="html_69b8368cdbfb3ec281c6c621e1e01329" style="width: 100.0%; height: 100.0%;">Windhoek (NA)<br>Température: 25.23°C</div>`)[0];
+                popup_911116112cc598915218f6f78132beb4.setContent(html_69b8368cdbfb3ec281c6c621e1e01329);
+            
+        
+
+        marker_7bfa3b36948d80b9f9aa0997b0261102.bindPopup(popup_911116112cc598915218f6f78132beb4)
+        ;
+
+        
+    
+    
+            marker_7bfa3b36948d80b9f9aa0997b0261102.bindTooltip(
+                `<div>
+                     Windhoek
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d8c5a69f54394523d6218eac698cf06 = L.marker(
+                [13.5137, 2.1098],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_14e10bfba6548fadcec98bb0ed14590c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7221d109863d13e2bbf78c1d2b182005 = $(`<div id="html_7221d109863d13e2bbf78c1d2b182005" style="width: 100.0%; height: 100.0%;">Niamey (NE)<br>Température: 36.16°C</div>`)[0];
+                popup_14e10bfba6548fadcec98bb0ed14590c.setContent(html_7221d109863d13e2bbf78c1d2b182005);
+            
+        
+
+        marker_8d8c5a69f54394523d6218eac698cf06.bindPopup(popup_14e10bfba6548fadcec98bb0ed14590c)
+        ;
+
+        
+    
+    
+            marker_8d8c5a69f54394523d6218eac698cf06.bindTooltip(
+                `<div>
+                     Niamey
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94b93099c11dbdd2034da5b3e74d488a = L.marker(
+                [9.0574, 7.4898],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_ddf1962f56b0ca2f4412be8523da32d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c55e1d7408b3aa9e68e64b2e28ea30a = $(`<div id="html_3c55e1d7408b3aa9e68e64b2e28ea30a" style="width: 100.0%; height: 100.0%;">Abuja (NG)<br>Température: 27.08°C</div>`)[0];
+                popup_ddf1962f56b0ca2f4412be8523da32d5.setContent(html_3c55e1d7408b3aa9e68e64b2e28ea30a);
+            
+        
+
+        marker_94b93099c11dbdd2034da5b3e74d488a.bindPopup(popup_ddf1962f56b0ca2f4412be8523da32d5)
+        ;
+
+        
+    
+    
+            marker_94b93099c11dbdd2034da5b3e74d488a.bindTooltip(
+                `<div>
+                     Abuja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a34a6282fa8c8aede7aef59d9d625710 = L.marker(
+                [4.3612, 18.555],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_c084998562b3f1b32b7649cd23f60ebd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1e02cfecec1f5c06498ec88c36c2bd = $(`<div id="html_da1e02cfecec1f5c06498ec88c36c2bd" style="width: 100.0%; height: 100.0%;">Bangui (CF)<br>Température: 24.7°C</div>`)[0];
+                popup_c084998562b3f1b32b7649cd23f60ebd.setContent(html_da1e02cfecec1f5c06498ec88c36c2bd);
+            
+        
+
+        marker_a34a6282fa8c8aede7aef59d9d625710.bindPopup(popup_c084998562b3f1b32b7649cd23f60ebd)
+        ;
+
+        
+    
+    
+            marker_a34a6282fa8c8aede7aef59d9d625710.bindTooltip(
+                `<div>
+                     Bangui
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54d51344d8dfd14175a9dfa9552dc86a = L.marker(
+                [-4.3246, 15.3215],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_576b7013f7a83eaec6b6aeb25005ad34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5479692530ef746ede03ec5fc3e3606a = $(`<div id="html_5479692530ef746ede03ec5fc3e3606a" style="width: 100.0%; height: 100.0%;">Kinshasa (CD)<br>Température: 27.56°C</div>`)[0];
+                popup_576b7013f7a83eaec6b6aeb25005ad34.setContent(html_5479692530ef746ede03ec5fc3e3606a);
+            
+        
+
+        marker_54d51344d8dfd14175a9dfa9552dc86a.bindPopup(popup_576b7013f7a83eaec6b6aeb25005ad34)
+        ;
+
+        
+    
+    
+            marker_54d51344d8dfd14175a9dfa9552dc86a.bindTooltip(
+                `<div>
+                     Kinshasa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13214f46fcf547e67536d6b7a74b1e77 = L.marker(
+                [-1.95, 30.0588],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_f9b7ad5ba51026857d3bd8d253b82b61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f9c28223167f37d79d3ed1247d6aab = $(`<div id="html_f0f9c28223167f37d79d3ed1247d6aab" style="width: 100.0%; height: 100.0%;">Kigali (RW)<br>Température: 19.85°C</div>`)[0];
+                popup_f9b7ad5ba51026857d3bd8d253b82b61.setContent(html_f0f9c28223167f37d79d3ed1247d6aab);
+            
+        
+
+        marker_13214f46fcf547e67536d6b7a74b1e77.bindPopup(popup_f9b7ad5ba51026857d3bd8d253b82b61)
+        ;
+
+        
+    
+    
+            marker_13214f46fcf547e67536d6b7a74b1e77.bindTooltip(
+                `<div>
+                     Kigali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33bf9cb45a0ab45e0effc928ce01ed2a = L.marker(
+                [0.3365, 6.7273],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_6f9c8469b9bf7962cb366309beb7aa5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_168f61dec19f925e312d3f83afc67626 = $(`<div id="html_168f61dec19f925e312d3f83afc67626" style="width: 100.0%; height: 100.0%;">Sao Tome (ST)<br>Température: 26.04°C</div>`)[0];
+                popup_6f9c8469b9bf7962cb366309beb7aa5d.setContent(html_168f61dec19f925e312d3f83afc67626);
+            
+        
+
+        marker_33bf9cb45a0ab45e0effc928ce01ed2a.bindPopup(popup_6f9c8469b9bf7962cb366309beb7aa5d)
+        ;
+
+        
+    
+    
+            marker_33bf9cb45a0ab45e0effc928ce01ed2a.bindTooltip(
+                `<div>
+                     Sao Tome
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c292d5a303d929fa88e7873975d3b6b3 = L.marker(
+                [14.6937, -17.4441],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_e0a781a2ecab605df4d5c41b6ba2a269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_999d835b48de50ff8dfcbb1dfe353e02 = $(`<div id="html_999d835b48de50ff8dfcbb1dfe353e02" style="width: 100.0%; height: 100.0%;">Dakar (SN)<br>Température: 28.07°C</div>`)[0];
+                popup_e0a781a2ecab605df4d5c41b6ba2a269.setContent(html_999d835b48de50ff8dfcbb1dfe353e02);
+            
+        
+
+        marker_c292d5a303d929fa88e7873975d3b6b3.bindPopup(popup_e0a781a2ecab605df4d5c41b6ba2a269)
+        ;
+
+        
+    
+    
+            marker_c292d5a303d929fa88e7873975d3b6b3.bindTooltip(
+                `<div>
+                     Dakar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19267da3da1cbbc7aa384acd9d7813f7 = L.marker(
+                [-4.6167, 55.45],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_f405329784151f173f454e9c27d7add9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52cba40da30331a97261a42a234a375e = $(`<div id="html_52cba40da30331a97261a42a234a375e" style="width: 100.0%; height: 100.0%;">Victoria (SC)<br>Température: 27.21°C</div>`)[0];
+                popup_f405329784151f173f454e9c27d7add9.setContent(html_52cba40da30331a97261a42a234a375e);
+            
+        
+
+        marker_19267da3da1cbbc7aa384acd9d7813f7.bindPopup(popup_f405329784151f173f454e9c27d7add9)
+        ;
+
+        
+    
+    
+            marker_19267da3da1cbbc7aa384acd9d7813f7.bindTooltip(
+                `<div>
+                     Victoria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffaa262cb2b36b868ddb528db734d2d3 = L.marker(
+                [2.0371, 45.3438],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_5e7b0f456cd0976b0136accf49937202 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a9ba2e7e7f9b6478c1c0a82da8a775a = $(`<div id="html_6a9ba2e7e7f9b6478c1c0a82da8a775a" style="width: 100.0%; height: 100.0%;">Mogadishu (SO)<br>Température: 25.77°C</div>`)[0];
+                popup_5e7b0f456cd0976b0136accf49937202.setContent(html_6a9ba2e7e7f9b6478c1c0a82da8a775a);
+            
+        
+
+        marker_ffaa262cb2b36b868ddb528db734d2d3.bindPopup(popup_5e7b0f456cd0976b0136accf49937202)
+        ;
+
+        
+    
+    
+            marker_ffaa262cb2b36b868ddb528db734d2d3.bindTooltip(
+                `<div>
+                     Mogadishu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aaa06a4fb571098ee46c9bbbee2dcff = L.marker(
+                [15.5518, 32.5324],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_f88c615208ed48e9fc7bc535919586c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4280eb3155f029a5ddbe34dad893ee6b = $(`<div id="html_4280eb3155f029a5ddbe34dad893ee6b" style="width: 100.0%; height: 100.0%;">Khartoum (SD)<br>Température: 37.74°C</div>`)[0];
+                popup_f88c615208ed48e9fc7bc535919586c2.setContent(html_4280eb3155f029a5ddbe34dad893ee6b);
+            
+        
+
+        marker_8aaa06a4fb571098ee46c9bbbee2dcff.bindPopup(popup_f88c615208ed48e9fc7bc535919586c2)
+        ;
+
+        
+    
+    
+            marker_8aaa06a4fb571098ee46c9bbbee2dcff.bindTooltip(
+                `<div>
+                     Khartoum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f783bee4d4dfbe78f6899f29a787a729 = L.marker(
+                [4.8517, 31.5825],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_94688e9274391f1ac3fc9887a16373d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_851caede72140ddfcff9f0128a4f259f = $(`<div id="html_851caede72140ddfcff9f0128a4f259f" style="width: 100.0%; height: 100.0%;">Juba (SS)<br>Température: 26.14°C</div>`)[0];
+                popup_94688e9274391f1ac3fc9887a16373d1.setContent(html_851caede72140ddfcff9f0128a4f259f);
+            
+        
+
+        marker_f783bee4d4dfbe78f6899f29a787a729.bindPopup(popup_94688e9274391f1ac3fc9887a16373d1)
+        ;
+
+        
+    
+    
+            marker_f783bee4d4dfbe78f6899f29a787a729.bindTooltip(
+                `<div>
+                     Juba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2f6b61ee83f065a06d5ef3e133f5adb = L.marker(
+                [-6.1722, 35.7395],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_9d1d748dbb3cf34079572190ce4e49bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d5730c923cf527d22ca376a21e3817f = $(`<div id="html_6d5730c923cf527d22ca376a21e3817f" style="width: 100.0%; height: 100.0%;">Dodoma (TZ)<br>Température: 23.15°C</div>`)[0];
+                popup_9d1d748dbb3cf34079572190ce4e49bf.setContent(html_6d5730c923cf527d22ca376a21e3817f);
+            
+        
+
+        marker_e2f6b61ee83f065a06d5ef3e133f5adb.bindPopup(popup_9d1d748dbb3cf34079572190ce4e49bf)
+        ;
+
+        
+    
+    
+            marker_e2f6b61ee83f065a06d5ef3e133f5adb.bindTooltip(
+                `<div>
+                     Dodoma
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61cc5a555c7cf66fdf38ee37657a8955 = L.marker(
+                [12.1067, 15.0444],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_15a5eca3bd0ea1b297d39d207bf6d0e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6a93ea552edacbae95ac6c8cac53c8f = $(`<div id="html_e6a93ea552edacbae95ac6c8cac53c8f" style="width: 100.0%; height: 100.0%;">N'Djamena (TD)<br>Température: 30.2°C</div>`)[0];
+                popup_15a5eca3bd0ea1b297d39d207bf6d0e3.setContent(html_e6a93ea552edacbae95ac6c8cac53c8f);
+            
+        
+
+        marker_61cc5a555c7cf66fdf38ee37657a8955.bindPopup(popup_15a5eca3bd0ea1b297d39d207bf6d0e3)
+        ;
+
+        
+    
+    
+            marker_61cc5a555c7cf66fdf38ee37657a8955.bindTooltip(
+                `<div>
+                     N'Djamena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_017ff4beb179c0d808810d781fa05b95 = L.marker(
+                [6.1375, 1.2123],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_ab22614755cfb72bfeb5406f2f363bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f60b8672062797b1f826a05bb1ce922b = $(`<div id="html_f60b8672062797b1f826a05bb1ce922b" style="width: 100.0%; height: 100.0%;">Lome (TG)<br>Température: 25.09°C</div>`)[0];
+                popup_ab22614755cfb72bfeb5406f2f363bb9.setContent(html_f60b8672062797b1f826a05bb1ce922b);
+            
+        
+
+        marker_017ff4beb179c0d808810d781fa05b95.bindPopup(popup_ab22614755cfb72bfeb5406f2f363bb9)
+        ;
+
+        
+    
+    
+            marker_017ff4beb179c0d808810d781fa05b95.bindTooltip(
+                `<div>
+                     Lome
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2985be6ec5f1f15cdade36079b84e6a2 = L.marker(
+                [36.819, 10.1658],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_99ed7eea8aa8d9bab09e3730010cf956 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64fd5919d17c537657bfc63474929b60 = $(`<div id="html_64fd5919d17c537657bfc63474929b60" style="width: 100.0%; height: 100.0%;">Tunis (TN)<br>Température: 25.8°C</div>`)[0];
+                popup_99ed7eea8aa8d9bab09e3730010cf956.setContent(html_64fd5919d17c537657bfc63474929b60);
+            
+        
+
+        marker_2985be6ec5f1f15cdade36079b84e6a2.bindPopup(popup_99ed7eea8aa8d9bab09e3730010cf956)
+        ;
+
+        
+    
+    
+            marker_2985be6ec5f1f15cdade36079b84e6a2.bindTooltip(
+                `<div>
+                     Tunis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22b9c660a1a007df40d1153ffd269d61 = L.marker(
+                [0.3163, 32.5822],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_4cc673f860edb542c220e97cb87523d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01ac59c85c31536695542ff0a1848e07 = $(`<div id="html_01ac59c85c31536695542ff0a1848e07" style="width: 100.0%; height: 100.0%;">Kampala (UG)<br>Température: 21.66°C</div>`)[0];
+                popup_4cc673f860edb542c220e97cb87523d4.setContent(html_01ac59c85c31536695542ff0a1848e07);
+            
+        
+
+        marker_22b9c660a1a007df40d1153ffd269d61.bindPopup(popup_4cc673f860edb542c220e97cb87523d4)
+        ;
+
+        
+    
+    
+            marker_22b9c660a1a007df40d1153ffd269d61.bindTooltip(
+                `<div>
+                     Kampala
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f962da567a54c116408638869bcabef = L.marker(
+                [-15.4067, 28.2871],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_01b56a73ed2aaed5c6030b9833c078ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79837b8eadc0eeb5900bfee9c1daa25d = $(`<div id="html_79837b8eadc0eeb5900bfee9c1daa25d" style="width: 100.0%; height: 100.0%;">Lusaka (ZM)<br>Température: 20.94°C</div>`)[0];
+                popup_01b56a73ed2aaed5c6030b9833c078ee.setContent(html_79837b8eadc0eeb5900bfee9c1daa25d);
+            
+        
+
+        marker_4f962da567a54c116408638869bcabef.bindPopup(popup_01b56a73ed2aaed5c6030b9833c078ee)
+        ;
+
+        
+    
+    
+            marker_4f962da567a54c116408638869bcabef.bindTooltip(
+                `<div>
+                     Lusaka
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d084ba05620ef8fee7e4700f37efd5 = L.marker(
+                [-17.8294, 31.0539],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+        var popup_04991e731a5aa564fadf7548fcd47e04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_439b366643e0669471f74a6b989c687e = $(`<div id="html_439b366643e0669471f74a6b989c687e" style="width: 100.0%; height: 100.0%;">Harare (ZW)<br>Température: 16.01°C</div>`)[0];
+                popup_04991e731a5aa564fadf7548fcd47e04.setContent(html_439b366643e0669471f74a6b989c687e);
+            
+        
+
+        marker_46d084ba05620ef8fee7e4700f37efd5.bindPopup(popup_04991e731a5aa564fadf7548fcd47e04)
+        ;
+
+        
+    
+    
+            marker_46d084ba05620ef8fee7e4700f37efd5.bindTooltip(
+                `<div>
+                     Harare
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70f670bf568fe30716b3dd0efd9edd5f = L.marker(
+                [12.1067, 15.0444],
+                {}
+            ).addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+    
+            var icon_2ac0fa1091e701750c8b2150797ae828 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70f670bf568fe30716b3dd0efd9edd5f.setIcon(icon_2ac0fa1091e701750c8b2150797ae828);
+        
+    
+        var popup_69e74bec171f8a22f68ceb45a4e0e381 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6aefbc755e0262f389ed6393d3ef941d = $(`<div id="html_6aefbc755e0262f389ed6393d3ef941d" style="width: 100.0%; height: 100.0%;">N'Djamena, Temp: 35.70°C</div>`)[0];
+                popup_69e74bec171f8a22f68ceb45a4e0e381.setContent(html_6aefbc755e0262f389ed6393d3ef941d);
+            
+        
+
+        marker_70f670bf568fe30716b3dd0efd9edd5f.bindPopup(popup_69e74bec171f8a22f68ceb45a4e0e381)
+        ;
+
+        
+    
+    
+            tile_layer_34887708829d49bac3b1e600934ccc6c.addTo(map_41b870bfcc66a13ab730a0429bbbac18);
+        
+</script>
+</html>
